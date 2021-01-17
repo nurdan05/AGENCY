@@ -1,0 +1,96 @@
+.row {
+    display: flex;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-2 {
+    width: 13.33%;
+}
+
+.btn-pink {
+    padding: 14px 38px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-white);
+    background-color: var(--color-pink);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: var(--color-black);
+    color: var(--color-pink);
+}
+
+.suptitle {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+.title {
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: vaar(--color-black);
+}
+
+.description {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(17, 17, 17, 0.50133);
+}
+
+
+
+@media screen and (max-width:576px) {
+.row {
+    flex-wrap: wrap;
+}
+.col-7 {
+    width: 100%;
+}
+
+.col-6 {
+    width: 100%;
+}
+
+.col-4 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+}
+}

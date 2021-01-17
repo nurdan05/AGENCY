@@ -1,0 +1,109 @@
+.clients {
+    position: relative;
+    background-color: var(--color-black);
+    padding: 153px 0 117px 0;
+    margin: 140px 0 200px;
+    height: 40vh
+}
+
+.clients__title {
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.clients__suptitle {
+    padding: 32px 0 0 0;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.clients__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.inner__name {
+    /* padding: 0 0 3px 26px ; */
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.clients__info {
+    padding: 0 0 3px 26px;
+}
+
+.inner__description {
+    margin:  100px 0 0 0;
+    max-width: 370px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-light-gray);
+}
+
+.inner__info {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+
+
+.clients .features__wrapper {
+    position: absolute;
+    top: 140px;
+    width: 1100px;
+}
+.clients .features__item {
+    padding: 50px 50px;
+    width: 370px;
+    height: 512px;
+    background-color: var(--color-purple);
+}
+
+.clients .features__item:nth-child(2),
+.clients .features__item:nth-child(4),
+.clients .features__item:nth-child(6),
+.clients .features__item:nth-child(8) {
+    background-color: var(--color-green);
+}
+
+.clients .features__wrapper .slick-dots {
+    position: relative;
+    margin: -250px 0 0 -550px;
+    display: flex;
+    list-style: none;
+}
+.clients .features__wrapper .slick-dots button {
+    margin-right: 8px;
+    width: 48px;
+    height: 48px;
+    font-size: 0;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: var(--color-pink);
+}

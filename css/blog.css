@@ -1,0 +1,17 @@
+.blog {
+    padding: 100px 0 0 0;
+}
+
+.blog__description {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+.advantage__row {
+    padding: 90px 0 110px 0;
+}

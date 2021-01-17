@@ -1,0 +1,80 @@
+.advantage .row {
+    padding: 150px 0 150px 0;
+    border-top: 2px solid var(--color-black);
+}
+
+.advantage .col-6 {
+    position: relative;
+    min-height: 576px;
+    max-width: 756px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../image/Oval.png") no-repeat center;
+}
+
+.advantage .col-6 img:first-child {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    z-index: -1;
+}
+
+.advantage .col-6 img:nth-child(2) {
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    z-index: -1;
+}
+
+.advantage__play {
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.advantage__title {
+    padding-top: 70px;
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+.advantage__suptitle {
+    padding: 32px 0;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+.advantage__description {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-gray);
+}
+
+.advantage .col-7 button + span {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #111111;
+}
+
+.advantage .col-7 .btn-pink {
+    margin: 30px 50px 0 0; 
+}

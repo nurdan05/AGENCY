@@ -1,0 +1,82 @@
+.footer {
+    background-color: var(--color-black);
+    padding: 140px 0 0 0;
+}
+
+.footer__title {
+    color: var(--color-white);
+}
+
+.footer__btn {
+    padding: 8px 280px 8px 16px;
+    margin: 22px 0 32px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-gray);
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.footer .suptitle {
+    color: var(--color-white) !important;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.footer .col-6:last-child {
+    padding: 48px 24px 64px 24px;
+    margin: 0 0 0 236px;
+    background-color: var(--color-pink);
+    text-align: center;
+}
+
+.footer .btn-pink {
+    padding: 14px 191px;
+}
+
+.footer .row:first-child {
+    border-bottom: 2px solid var(--color-white);
+}
+
+.footer .row:last-child {
+    justify-content: space-between;
+    padding: 102px 0 0 0;
+}
+
+.footer .description {
+    padding: 35px 0 0 0;
+    color: var(--color-light-gray);
+}
+
+.footer__email,
+.footer__phone {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+
+.footer__email {
+    padding: 8px 0;
+}
+
+.footer__item {
+    list-style: none;
+    margin: 8px 8px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-white);
+}
+
+.footer svg {
+    cursor: pointer;
+}

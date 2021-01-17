@@ -1,0 +1,111 @@
+.features {
+    padding: 137px 0 140px 0;
+    margin-bottom: 105px;
+    background-color: var(--color-black);
+}
+
+.features .row {
+    /* justify-content: space-between; */
+}
+
+.features__title {
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.features__description {
+    width: 570px;
+    margin-left: 228px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-light-gray);
+}
+
+.features__wrapper {
+    padding: 140px 0 0 0;
+}
+
+.features__item {
+    margin: 0 30px 0 0;
+    max-width: 570px;
+    height: 228px;
+    padding: 48px 32px;
+    background-color: var(--color-purple);
+}
+
+.features__item:nth-child(2),
+.features__item:nth-child(4),
+.features__item:nth-child(6),
+.features__item:nth-child(8) {
+    background-color: var(--color-green);
+}
+
+.features__suptitle {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 20px 0 20px;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.features__subdescription {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--color-light-gray);
+}
+.features__wrapper .slick-dots {
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 10px 0 0 45%;
+}
+
+
+.features__wrapper .slick-dots button {
+    margin-right: 8px;
+    width: 12px;
+    height: 12px;
+    font-size: 0;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: var(--color-light-gray);
+}
+
+
+.features .slick-dots .slick-active button {
+    background-color: var(--color-purple);
+}
+
+.features__title-black {
+    color: var(--color-black)
+}
+
+.features__description-gray {
+    color: var(--color-gray);
+}
+
+.features__footer {
+    padding: 0 0 85px 0;
+}
+
+.features__container {
+    padding: 0 0 85px 0;
+    border-bottom: 2px solid var(--color-black)
+}

@@ -1,0 +1,105 @@
+.hero {
+    padding-top: 100px;
+    background-color: var(--color-black);
+}
+
+.hero__title {
+    z-index: 19 !important;
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 80px;
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+
+.hero__description {
+    padding: 52px 0 70px 0;
+    color: var(--color-white);
+}
+
+.hero svg {
+    fill: var(--color-white);
+    margin: 52px 44px 0 0;
+    float: left;
+}
+
+.hero__row {
+    justify-content: space-between;
+}
+
+.hero__image-oval {
+    margin-left: 90px;
+}
+
+.slider__wrapper {
+    width: 520px;
+    height: 624px;
+    margin: -435px 0 0 550px;
+}
+
+.slider__item {
+    border-radius: 3px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-pink);
+    outline: none;
+}
+.hero__slider .slick-dots {
+    position: relative;
+    margin: -40px 0 0 -550px;
+    display: flex;
+    list-style: none;
+}
+.hero__slider .slick-dots button {
+    margin-right: 8px;
+    width: 48px;
+    height: 48px;
+    font-size: 0;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: var(--color-pink);
+}
+
+.hero__slider p {
+    margin: -140px 0 0 125px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+.hero__slider {
+    padding-bottom: 140px;
+}
+
+@media screen and (max-width: 576px) {
+    .hero__title {
+        width: 312px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .hero__description {
+        font-size: 16px;
+        line-height: 32px;
+        width: 229px;
+        height: 133px;
+        margin: 0 0 0 100px;
+    }
+    .hero__row {
+        justify-content: normal;
+    }
+    .slider__wrapper {
+        width: 100%;
+    }
+}
