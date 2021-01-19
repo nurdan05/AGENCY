@@ -41,7 +41,7 @@ button {
 
 @media screen and (max-width: 576px) {
     .container {
-        padding: 0 22px;
+        padding: 0 12px;
     }
     .main {
         overflow: visible

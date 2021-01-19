@@ -2,7 +2,7 @@
     margin: 550px 0 0 0;
 }
 
-.sponcors__container {
+.sponsors__container {
     border-top: 2px solid var(--color-black);
     border-bottom: 2px solid var(--color-black)
 }
@@ -20,4 +20,21 @@
 
 .sponsors__item {
     list-style: none;
+}
+
+@media screen and (max-width: 576px) {
+    .sponsors__list {
+        display:block;
+        width: 30%;
+        text-align: center;
+        justify-content: center;
+        border-top: 2px solid var(--color-black);
+        border-bottom: 2px solid var(--color-black)
+    }
+    .sponsors__item {   
+        padding: 52px 0 0 0;
+    }
+    .sponsors__container {
+        display: none;
+    }
 }

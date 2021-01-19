@@ -4,7 +4,6 @@
 }
 
 .advantage .col-6 {
-    position: relative;
     min-height: 576px;
     max-width: 756px;
     position: relative;
@@ -76,5 +75,49 @@
 }
 
 .advantage .col-7 .btn-pink {
-    margin: 30px 50px 0 0; 
+    margin: 30px 50px 0 0;
+}
+
+@media screen and (max-width: 576px) {
+    .advantage .col-6,
+    .col-6 img {
+        max-width: 454px;
+        max-height: 340px;
+    }
+    .advantage .col-6 img {
+        margin: -130px 0px 0 0;
+    }
+    .advantage .row {
+        padding: 80px 0 0 0;
+    }
+    .advantage__play {
+        width: 220px;
+        height: 220px;
+    }
+    .advantage .col-6 {
+        min-height: 400px;
+        margin-top: 40px;
+        background: url("../image/Oval.png") no-repeat top;
+        background-size: 300px;
+    }
+    .advantage .col-6 img:first-child {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        margin: -40px 0 0 15px;
+    }
+    .advantage .col-6 img:nth-child(2) {
+        display: none;
+    }
+
+    .advantage__title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .advantage .col-7 .btn-pink {
+        margin: 30px 50px 112px 0;
+    }
 }

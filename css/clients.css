@@ -3,7 +3,7 @@
     background-color: var(--color-black);
     padding: 153px 0 117px 0;
     margin: 140px 0 200px;
-    height: 40vh
+    height: 40vh;
 }
 
 .clients__title {
@@ -50,7 +50,7 @@
 }
 
 .inner__description {
-    margin:  100px 0 0 0;
+    margin: 100px 0 0 0;
     max-width: 370px;
     font-family: DM Sans;
     font-style: normal;
@@ -68,7 +68,6 @@
     line-height: 32px;
     color: var(--color-white);
 }
-
 
 .clients .features__wrapper {
     position: absolute;
@@ -106,4 +105,25 @@
     cursor: pointer;
     transition: 0.3s;
     background-color: var(--color-pink);
+}
+
+@media screen and (max-width: 576px) {
+    .clients__title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .clients .features__wrapper {
+        max-width: 329px;
+        max-height: 140px;
+        margin: 188px 0 0 0;
+    }
+    .clients .features__item {
+        max-width: 329px;
+        max-height: 140px;
+        /* margin: 188px 0 0 0; */
+    }
+    .clients__suptitle {
+        padding: 36px 0 69px
+    }
 }

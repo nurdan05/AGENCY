@@ -8,6 +8,6 @@ $('.slider__wrapper').slick({
 $('.features__wrapper').slick({
     dots: true,
     arrows: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    // slidesToShow: 1,
+    // slidesToScroll: 1,
   });

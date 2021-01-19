@@ -10,6 +10,7 @@
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--color-black);
+    z-index: 8;
 }
 
 .portfolio__list {
@@ -41,7 +42,7 @@
 }
 
 .portfolio__item a:hover {
-    display: flex   ;
+    display: flex;
     background-color: var(--color-black);
     color: var(--color-white);
 }
@@ -66,6 +67,7 @@
     line-height: 48px;
     text-transform: uppercase;
     color: var(--color-black);
+    z-index: 4;
 }
 
 .portfolio__container {
@@ -74,7 +76,7 @@
 
 .portfolio__container .col-7:nth-last-child(2) img {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     right: 111px;
 }
 
@@ -91,4 +93,64 @@
 
 .portfolio .btn-pink {
     margin: 80px 0 0 55%;
+}
+
+.portfolio select {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .portfolio select {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: var(--color-gray);
+        padding: 8px 210px 8px 16px;
+        margin: 12px 0 64px;
+        display: flex;
+        outline: none;
+        border: 1px solid var(--color-gray);
+        border-radius: 3px;
+    }
+    .portfolio__suptitle {
+        padding-top: 50px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+        display: inline-block;
+    }
+    .portfolio__list {
+        display: none;
+    }
+    .portfolio .container{
+        margin-top: 100px;
+    }
+    .portfolio__container .col-7 {
+        position: relative;
+        width: 329px;
+        height: 320px;
+    }
+    .portfolio__container .col-7:nth-last-child(2) img {
+        position: absolute;
+        width: 274px;
+        height: 342px;
+        bottom: -3px;
+        right: 1px;
+        z-index: 1;
+    }
+    .portfolio__col-7 img {
+        position: absolute;
+        width: 426px;
+        height: 302px;
+        bottom: -1px;
+        left: 0;
+    }
+    .portfolio__title-black {
+        display: inline-flex;
+    }
+    .portfolio .btn-pink {
+        margin: 80px 0 0 25%;
+    }
 }

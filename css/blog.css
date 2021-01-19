@@ -15,3 +15,13 @@
 .advantage__row {
     padding: 90px 0 110px 0;
 }
+
+@media screen and (max-width: 576px) {
+    .blog .col-4 {
+        margin: 70px 0 0 -10px;
+        justify-content: center;
+    }
+    .blog .row {
+        border-top: 2px solid var(--color-black);
+    }
+}

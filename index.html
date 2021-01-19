@@ -165,6 +165,13 @@
                 <div class="row">
                     <div class="col-2">
                         <h3 class="portfolio__suptitle">Portfolio</h3>
+                        <select>
+                            <option label="All" value="1" selected></option>
+                            <option>Design</option>
+                            <option>Development</option>
+                            <option>Branding</option>
+                            <option>Products</option>
+                        </select>
                         <ul class="portfolio__list">
                             <li class="portfolio__item"><a href="#">All</a></li>
                             <li class="portfolio__item"><a href="#">Design</a></li>
@@ -175,14 +182,14 @@
                     </div>
                     <div class="portfolio__container">
                         <div class="portfolio__col col-7">
+                            <img src="./image/mops.png" alt="mops">
                             <h3 class="portfolio__suptitle">Design</h3>
                             <h2 class="portfolio__title-black">Creative<br>Template</h2>
-                            <img src="./image/mops.png" alt="mops">
                         </div>
                         <div class="portfolio__col-7 col-7">
+                            <img src="./image/brand.png" alt="brand">
                             <h3 class="portfolio__suptitle">Branding</h3>
                             <h2 class="portfolio__title-black">Amazing<br>Startup</h2>
-                            <img src="./image/brand.png" alt="brand">
                         </div>
                     </div>
                     <button class="btn-pink">Load more</button>
@@ -284,74 +291,74 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <h2 class="footer__title title">Newsletter<br>
-                            Sign Up</h2>
-                    </div>
-                    <div class="col-6">
-                        <h3 class="suptitle">Get in touch</h3>
-                        <input type="text" class="footer__btn" placeholder="Your email">
-                        <button class="btn-pink">Subscribe</button>
-                    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h2 class="footer__title title">Newsletter<br>
+                        Sign Up</h2>
                 </div>
-                <div class="row">
-                    <div class="col-2">
-                        <h3 class="header__logo">Agency</h3>
-                        <p class="description">Agency © 2019.<br>
-                            All Rights Reserved.</p>
-                    </div>
-                    <div class="col-2">
-                        <h3 class="suptitle">Address</h3>
-                        <p class="description">3899 Fusce Rd. Frederick<br>
-                            Nebraska 20620</p>
-                        <h3 class="footer__email">info@agency.com</h3>
-                        <h3 class="footer__phone">+1 (234) 567-89-00</h3>
-                    </div>
-                    <div class="col-2">
-                        <h3 class="suptitle">Menu</h3>
-                        <ul class="footer__list">
-                            <li class="footer__item">About</li>
-                            <li class="footer__item">Portfolio</li>
-                            <li class="footer__item">Blog</li>
-                            <li class="footer__item">Testimonials</li>
-                            <li class="footer__item">Contact</li>
-                        </ul>
-                    </div>
-                    <div class="col-2"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
-                                fill="#333333" />
-                            <path
-                                d="M21.6667 21.3333H19V24H21.6667V32H25.6667V24H28.0933L28.3333 21.3333H25.6667V20.2227C25.6667 19.5853 25.7947 19.3333 26.4107 19.3333H28.3333V16H25.128C22.7307 16 21.6667 17.056 21.6667 19.0773V21.3333Z"
-                                fill="white" />
-                        </svg>
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
-                                fill="#333333" />
-                            <path
-                                d="M32 19.54C31.412 19.8013 30.7787 19.9773 30.1147 20.0573C30.7933 19.6507 31.312 19.008 31.5587 18.2413C30.924 18.6173 30.2213 18.8907 29.4733 19.0373C28.876 18.3987 28.0213 18 27.0787 18C24.9587 18 23.4013 19.9773 23.88 22.0307C21.1533 21.8933 18.7333 20.5867 17.1147 18.6013C16.2547 20.076 16.6693 22.0067 18.1307 22.984C17.5933 22.9667 17.088 22.8187 16.6453 22.5733C16.6093 24.0933 17.7 25.516 19.2787 25.8333C18.8173 25.9587 18.3107 25.988 17.796 25.8893C18.2133 27.1933 19.428 28.1413 20.8627 28.168C19.48 29.2507 17.7427 29.7347 16 29.5293C17.4533 30.4613 19.1773 31.004 21.0307 31.004C27.1267 31.004 30.5693 25.856 30.3613 21.2387C31.004 20.7773 31.56 20.1987 32 19.54Z"
-                                fill="white" />
-                        </svg>
-
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
-                                fill="#333333" />
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M24 16C21.8267 16 21.556 16.0093 20.7013 16.0493C17.7947 16.1827 16.1813 17.7947 16.048 20.7013C16.0093 21.556 16 21.828 16 24C16 26.1733 16.0093 26.4453 16.048 27.2987C16.1813 30.204 17.7947 31.8187 20.7013 31.952C21.556 31.9907 21.8267 32 24 32C26.1733 32 26.4453 31.9907 27.3 31.952C30.2013 31.8187 31.8213 30.2067 31.952 27.2987C31.9907 26.4453 32 26.1733 32 24C32 21.828 31.9907 21.556 31.952 20.7013C31.8213 17.7987 30.2067 16.1813 27.3 16.0493C26.4453 16.0093 26.1733 16 24 16ZM24 17.4427C26.136 17.4427 26.3893 17.4507 27.2333 17.4893C29.4027 17.588 30.4133 18.616 30.5133 20.768C30.5507 21.612 30.5587 21.864 30.5587 24C30.5587 26.136 30.5507 26.3893 30.5133 27.232C30.4133 29.3827 29.404 30.4133 27.2333 30.512C26.3893 30.5493 26.1373 30.5587 24 30.5587C21.864 30.5587 21.6107 30.5507 20.768 30.512C18.5947 30.412 17.588 29.38 17.488 27.232C17.4507 26.3893 17.4413 26.136 17.4413 24C17.4413 21.864 17.4507 21.6107 17.488 20.768C17.5867 18.6147 18.5973 17.5867 20.768 17.488C21.6107 17.4493 21.864 17.4427 24 17.4427ZM19.892 24C19.892 21.7307 21.732 19.892 24 19.892C26.268 19.892 28.108 21.732 28.108 24C28.108 26.2693 26.268 28.108 24 28.108C21.732 28.108 19.892 26.2693 19.892 24ZM24 26.6667C22.5267 26.6667 21.3333 25.4733 21.3333 24C21.3333 22.528 22.5267 21.3333 24 21.3333C25.472 21.3333 26.668 22.5267 26.668 24C26.668 25.4733 25.472 26.6667 24 26.6667ZM27.3093 19.7307C27.3093 19.2 27.74 18.7707 28.2693 18.7707C28.8013 18.7707 29.2307 19.2 29.2307 19.7307C29.2307 20.2613 28.8 20.6907 28.2693 20.6907C27.7387 20.6907 27.3093 20.26 27.3093 19.7307Z"
-                                fill="white" />
-                        </svg>
-
-                    </div>
+                <div class="col-6">
+                    <h3 class="suptitle">Get in touch</h3>
+                    <input type="text" class="footer__btn" placeholder="Your email">
+                    <button class="btn-pink">Subscribe</button>
                 </div>
             </div>
-        </footer>
-    </main>
+            <div class="row">
+                <div class="col-2">
+                    <h3 class="header__logo">Agency</h3>
+                    <p class="description">Agency © 2019.<br>
+                        All Rights Reserved.</p>
+                </div>
+                <div class="col-2">
+                    <h3 class="suptitle bug__suptitle">Address</h3>
+                    <p class="description">3899 Fusce Rd. Frederick<br>
+                        Nebraska 20620</p>
+                    <h3 class="footer__email">info@agency.com</h3>
+                    <h3 class="footer__phone">+1 (234) 567-89-00</h3>
+                </div>
+                <div class="col-2">
+                    <h3 class="suptitle bag__suptitle">Menu</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">About</li>
+                        <li class="footer__item">Portfolio</li>
+                        <li class="footer__item">Blog</li>
+                        <li class="footer__item">Testimonials</li>
+                        <li class="footer__item">Contact</li>
+                    </ul>
+                </div>
+                <div class="col-2"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
+                            fill="#333333" />
+                        <path
+                            d="M21.6667 21.3333H19V24H21.6667V32H25.6667V24H28.0933L28.3333 21.3333H25.6667V20.2227C25.6667 19.5853 25.7947 19.3333 26.4107 19.3333H28.3333V16H25.128C22.7307 16 21.6667 17.056 21.6667 19.0773V21.3333Z"
+                            fill="white" />
+                    </svg>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
+                            fill="#333333" />
+                        <path
+                            d="M32 19.54C31.412 19.8013 30.7787 19.9773 30.1147 20.0573C30.7933 19.6507 31.312 19.008 31.5587 18.2413C30.924 18.6173 30.2213 18.8907 29.4733 19.0373C28.876 18.3987 28.0213 18 27.0787 18C24.9587 18 23.4013 19.9773 23.88 22.0307C21.1533 21.8933 18.7333 20.5867 17.1147 18.6013C16.2547 20.076 16.6693 22.0067 18.1307 22.984C17.5933 22.9667 17.088 22.8187 16.6453 22.5733C16.6093 24.0933 17.7 25.516 19.2787 25.8333C18.8173 25.9587 18.3107 25.988 17.796 25.8893C18.2133 27.1933 19.428 28.1413 20.8627 28.168C19.48 29.2507 17.7427 29.7347 16 29.5293C17.4533 30.4613 19.1773 31.004 21.0307 31.004C27.1267 31.004 30.5693 25.856 30.3613 21.2387C31.004 20.7773 31.56 20.1987 32 19.54Z"
+                            fill="white" />
+                    </svg>
+
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z"
+                            fill="#333333" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24 16C21.8267 16 21.556 16.0093 20.7013 16.0493C17.7947 16.1827 16.1813 17.7947 16.048 20.7013C16.0093 21.556 16 21.828 16 24C16 26.1733 16.0093 26.4453 16.048 27.2987C16.1813 30.204 17.7947 31.8187 20.7013 31.952C21.556 31.9907 21.8267 32 24 32C26.1733 32 26.4453 31.9907 27.3 31.952C30.2013 31.8187 31.8213 30.2067 31.952 27.2987C31.9907 26.4453 32 26.1733 32 24C32 21.828 31.9907 21.556 31.952 20.7013C31.8213 17.7987 30.2067 16.1813 27.3 16.0493C26.4453 16.0093 26.1733 16 24 16ZM24 17.4427C26.136 17.4427 26.3893 17.4507 27.2333 17.4893C29.4027 17.588 30.4133 18.616 30.5133 20.768C30.5507 21.612 30.5587 21.864 30.5587 24C30.5587 26.136 30.5507 26.3893 30.5133 27.232C30.4133 29.3827 29.404 30.4133 27.2333 30.512C26.3893 30.5493 26.1373 30.5587 24 30.5587C21.864 30.5587 21.6107 30.5507 20.768 30.512C18.5947 30.412 17.588 29.38 17.488 27.232C17.4507 26.3893 17.4413 26.136 17.4413 24C17.4413 21.864 17.4507 21.6107 17.488 20.768C17.5867 18.6147 18.5973 17.5867 20.768 17.488C21.6107 17.4493 21.864 17.4427 24 17.4427ZM19.892 24C19.892 21.7307 21.732 19.892 24 19.892C26.268 19.892 28.108 21.732 28.108 24C28.108 26.2693 26.268 28.108 24 28.108C21.732 28.108 19.892 26.2693 19.892 24ZM24 26.6667C22.5267 26.6667 21.3333 25.4733 21.3333 24C21.3333 22.528 22.5267 21.3333 24 21.3333C25.472 21.3333 26.668 22.5267 26.668 24C26.668 25.4733 25.472 26.6667 24 26.6667ZM27.3093 19.7307C27.3093 19.2 27.74 18.7707 28.2693 18.7707C28.8013 18.7707 29.2307 19.2 29.2307 19.7307C29.2307 20.2613 28.8 20.6907 28.2693 20.6907C27.7387 20.6907 27.3093 20.26 27.3093 19.7307Z"
+                            fill="white" />
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/index.js"></script>

@@ -80,3 +80,34 @@
 .footer svg {
     cursor: pointer;
 }
+
+@media screen and (max-width: 576px) {
+    .footer__title {
+        padding: 0 0 70px 0;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .footer .row {
+        border: none !important;
+    }
+    .footer__phone, .footer__email, .footer .description {
+        margin: 8px;
+    }
+    .footer .col-2 {
+        margin: 0 0 80px 0;
+    }
+    .col-6 {
+        margin: 0 !important;
+        width: 309px;
+        height: 188px;
+        border-radius: 3px;
+    }
+    .footer__btn {
+        padding: 8px 140px 8px 16px;
+    }
+    .footer .btn-pink {
+        padding: 14px 75px;
+    }
+}

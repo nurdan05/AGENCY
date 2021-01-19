@@ -30,7 +30,7 @@
 }
 
 .hero__image-oval {
-    margin-left: 90px;
+    margin: 0 0 0 90px;
 }
 
 .slider__wrapper {
@@ -99,7 +99,25 @@
     .hero__row {
         justify-content: normal;
     }
+    .hero__image-oval {
+        margin: 0 0 -50px 95px;
+    }
     .slider__wrapper {
-        width: 100%;
+        max-width: 329px;
+        max-height: 360px;
+        margin: -130px 0 0 0;
+    }
+    .hero__slider .slick-dots {
+        margin: 56px 0 0 0;
+    }
+    .slider__image {
+        width: 329px;
+        min-height: 360px;
+    }
+    .hero__slider p {
+        margin: 65px 0 0 11%;
+    }
+    .hero__slider {
+        padding-bottom: 80px;
     }
 }
