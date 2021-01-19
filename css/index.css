@@ -43,7 +43,7 @@ button {
     .container {
         padding: 0 22px;
     }
-    #main, html, body{
-        overflow: hidden !important;
+    #main, html{
+        overflow-x: hidden !important;
     }
 }
