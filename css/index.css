@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
-@import '../css/components.css';
-@import '../css/./variables.css';
-@import '../css/./header.css';
-@import '../css/./hero.css';
-@import '../css/./adantage.css';
-@import '../css/./features.css';
-@import '../css/./portfolio.css';
-@import '../css/./clients.css';
-@import '../css/./sponsors.css';
-@import '../css/./blog.css';
-@import '../css/./footer.css';
+@import 'components.css';
+@import './variables.css';
+@import './header.css';
+@import './hero.css';
+@import './adantage.css';
+@import './features.css';
+@import './portfolio.css';
+@import './clients.css';
+@import './sponsors.css';
+@import './blog.css';
+@import './footer.css';
 
 @import './vendors/slick.css';
 
