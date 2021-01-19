@@ -107,14 +107,14 @@
         font-size: 16px;
         line-height: 32px;
         color: var(--color-gray);
-        padding: 8px 210px 8px 16px;
+        padding: 8px 170px 8px 16px;
         margin: 12px 0 64px;
         display: flex;
         outline: none;
         border: 1px solid var(--color-gray);
         border-radius: 3px;
     }
-    .portfolio__suptitle {
+    .portfolio .col-7 .portfolio__suptitle {
         margin-top: -40px;
         margin-left: -15px;
         font-weight: normal;

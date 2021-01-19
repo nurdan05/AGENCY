@@ -18,7 +18,7 @@
 @media screen and (max-width: 576px) {
     .sponsors__list {
         display:block;
-        width: 30%;
+        /* width: 30%; */
         text-align: center;
         justify-content: center;
         border-top: 2px solid var(--color-black);
