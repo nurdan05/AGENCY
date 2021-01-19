@@ -2,20 +2,13 @@
     margin: 550px 0 0 0;
 }
 
-.sponsors__list{
-    border-top: 2px solid var(--color-black);
-    border-bottom: 2px solid var(--color-black)
-}
-
-.sponsors__image {
-    /* padding: 140px 0; */
-}
-
 .sponsors__list {
     padding: 50px 0;
     display: flex;
     justify-content:space-between;
     align-items: center;
+    border-top: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black)
 }
 
 .sponsors__item {
