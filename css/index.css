@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap') ;
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
-@import 'components.css';
-@import './variables.css';
-@import './header.css';
-@import './hero.css';
-@import './adantage.css';
-@import './features.css';
-@import './portfolio.css';
-@import './clients.css';
-@import './sponsors.css';
-@import './blog.css';
-@import './footer.css';
+@import 'components.css' ;
+@import './variables.css' ;
+@import './header.css' ;
+@import './hero.css' ;
+@import './adantage.css' ;
+@import './features.css' ;
+@import './portfolio.css' ;
+@import './clients.css' ;
+@import './sponsors.css' ;
+@import './blog.css' ;
+@import './footer.css' ;
 
 @import './vendors/slick.css';
 

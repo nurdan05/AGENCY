@@ -3,7 +3,7 @@
     background-color: var(--color-black);
     padding: 153px 0 117px 0;
     margin: 140px 0 200px;
-    height: 40vh;
+    /* height: 40vh; */
 }
 
 .clients__title {
@@ -69,32 +69,32 @@
     color: var(--color-white);
 }
 
-.clients .features__wrapper {
+.clients .clients__wrapper {
     position: absolute;
     top: 140px;
     width: 1100px;
 }
-.clients .features__item {
+.clients .clients__item {
     padding: 50px 50px;
     width: 370px;
     height: 512px;
     background-color: var(--color-purple);
 }
 
-.clients .features__item:nth-child(2),
-.clients .features__item:nth-child(4),
-.clients .features__item:nth-child(6),
-.clients .features__item:nth-child(8) {
+.clients .clients__item:nth-child(2),
+.clients .clients__item:nth-child(4),
+.clients .clients__item:nth-child(6),
+.clients .clients__item:nth-child(8) {
     background-color: var(--color-green);
 }
 
-.clients .features__wrapper .slick-dots {
+.clients .clients__wrapper .slick-dots {
     position: relative;
     margin: -250px 0 0 -550px;
     display: flex;
     list-style: none;
 }
-.clients .features__wrapper .slick-dots button {
+.clients .clients__wrapper .slick-dots button {
     margin-right: 8px;
     width: 48px;
     height: 48px;
@@ -105,25 +105,32 @@
     cursor: pointer;
     transition: 0.3s;
     background-color: var(--color-pink);
+    background: url('../image/left.png');
 }
 
+.clients .slick-list {
+    height: 640px;
+}
 @media screen and (max-width: 576px) {
     .clients__title {
         font-weight: 900;
         font-size: 40px;
         line-height: 48px;
     }
-    .clients .features__wrapper {
+    .clients .clients__wrapper {
         max-width: 329px;
         max-height: 140px;
         margin: 188px 0 0 0;
     }
-    .clients .features__item {
+    .clients .clients__item {
         max-width: 329px;
-        max-height: 140px;
+        /* max-height: 140px; */
         /* margin: 188px 0 0 0; */
     }
     .clients__suptitle {
         padding: 36px 0 69px
+    }
+    .clients .slick-list {
+        max-height: 640px;
     }
 }

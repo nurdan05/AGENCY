@@ -20,11 +20,11 @@
     border: 1px solid transparent;
 }
 
-.footer .suptitle {
+.footer .col-6 .suptitle {
     padding: 43px 0 0 0;
     color: var(--color-white) !important;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 .footer .col-6 {
@@ -84,6 +84,12 @@
     cursor: pointer;
 }
 
+.bag__suptitle, .bug__suptitle {
+    color: var(--color-white) !important;
+    text-align: left;
+    margin-left: 10px;
+}
+
 @media screen and (max-width: 576px) {
     .footer__title {
         padding: 0 0 70px 0;
@@ -100,9 +106,9 @@
     .footer .description {
         margin: 8px;
     }
-    .footer .col-6 .suptitle {
-        padding-left: 35px;
-    }
+    /* .footer .col-6 .suptitle {
+        padding-left: px;
+    } */
     .footer .col-2 {
         margin: 0 0 80px 0;
     }

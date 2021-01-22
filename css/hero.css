@@ -85,6 +85,9 @@
 }
 
 @media screen and (max-width: 576px) {
+    .hero__slider p {
+        padding: 0 0 0 80px;
+    }
     .hero__title {
         width: 312px;
         font-style: normal;
