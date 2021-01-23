@@ -66,6 +66,7 @@
 }
 
 .advantage .col-7 button + span {
+    margin-left: -20px;
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
@@ -110,7 +111,6 @@
     .advantage .col-6 img:nth-child(2) {
         display: none;
     }
-
     .advantage__title {
         font-weight: 900;
         font-size: 40px;

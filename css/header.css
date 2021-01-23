@@ -3,7 +3,7 @@
     background-color: var(--color-black);
     display: flex;
 }
-.header__container {
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +22,9 @@
     color: var(--color-white);
     list-style: none;
 }
+.burger__menu {
+    display: none;
+}
 .header__logo {
     font-family: Roboto Condensed;
     font-style: normal;
@@ -31,54 +34,7 @@
     color: var(--color-white);
     text-transform: uppercase;
 }
-.burger__menu {
-    width: 60px;
-    height: 60px;
-    margin-top: 5px;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-green);
-    border-radius: 50%;
-    background: url("../image/CombinedShape.png") no-repeat center;
-    z-index: 2;
-}
-.burger__menu  {
-        position: relative;
-        margin:28px 0 0 15px;
-        width: 50%;
-        height: 2px;
-        display: block;
-        background-color: var(--color-white);
-        transition: 0.6s;
-    }
-    .burger__menu.is-active {
-        background: url('../image/x-regular-60.png')  center
-    }
-    /* .burger__menu span::before,
-    .burger__menu span::after{
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background-color: var(--color-white);
-        transform: translateY(-10px);
-        transition: 0.3s;
-    } */
-    /* .burger__menu span::after {
-        transform: translateY(10px);
-    }
-    .burger__menu.is-active span::before{
-        transform: rotate(45deg);
-        background-color: var(--color-black);
-        animation: 0.6s move1 0.3s forwards;
-    }
-    .burger__menu.is-active span::after{
-        transform: rotate(-45deg);
-        background-color: var(--color-black);
-        animation: 0.6s move2 0.3s forwards;
-    } */
-   
+
 @keyframes move1 {
     from {
         transform: rotate(0);
@@ -132,6 +88,9 @@
     .nav .is-active .nav__item {
         display: block;
     }
+    .burger__menu.is-active {
+        background: url("../image/x-regular-60.png") center;
+    }
     .burger__menu {
         width: 60px;
         height: 60px;
@@ -143,6 +102,7 @@
         border-radius: 50%;
         background: url("../image/CombinedShape.png") no-repeat center;
         z-index: 2;
+        transition: 0.6s;
     }
     .nav__list {
         /* display: none; */
