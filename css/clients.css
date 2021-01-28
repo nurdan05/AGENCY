@@ -65,7 +65,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
-    color: var(--color-white);
+    color: var(--color-white)
 }
 
 .clients .clients__wrapper {
